@@ -20,7 +20,7 @@ module Decidim
             published_at_relative: to_relative_date(model.published_at),
             participatory_text_level: model.participatory_text_level,
             position: model.position,
-            endorsements_count: model.endorsements_count,
+            likes_count: model.likes_count,
             cost: model.cost,
             cost_report: i18n_field(:cost_report),
             execution_period: i18n_field(:execution_period),

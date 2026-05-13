@@ -21,7 +21,7 @@ module Decidim
             published_at: from_relative_date(parser.attributes["published_at_relative"]),
             participatory_text_level: parser.model_participatory_text_level,
             position: parser.model_position,
-            endorsements_count: parser.model_endorsements_count,
+            likes_count: parser.model_likes_count,
             cost: parser.model_cost,
             cost_report: parser.model_cost_report(locales),
             execution_period: parser.model_execution_period(locales),
