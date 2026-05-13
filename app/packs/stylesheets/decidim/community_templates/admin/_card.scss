@@ -4,7 +4,7 @@
   padding: 0.25rem;
 
   &__empty {
-    @extend .h2;
+    @extend .h2 !optional;
     @apply flex items-center justify-center text-center;
     min-height: 50vh;
     color: var(--cm-gray-600) !important;

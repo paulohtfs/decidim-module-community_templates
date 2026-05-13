@@ -1,7 +1,7 @@
 .catalog_summary {
 
   &__title {
-    @extend .h3;
+    @extend .h3 !optional;
     @apply mb-2;
     line-height: 1.2;  
   }
